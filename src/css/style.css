@@ -18,3 +18,48 @@ header {
     padding: 0px;
     margin: 0px;
 }
+
+main {
+    margin: 30px 70px;
+    float: left;
+    width: 50%;
+}
+
+aside {
+    width: 30%;
+    margin-top: 50px;
+    float: left;
+}
+
+.writing {
+    background-color: #E0FFFF;
+    color: black;
+}
+
+.delete-icon, .edit-icon {
+    float: right;
+    margin: 15px;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+.edit-icon:hover, .delete-icon:hover {
+    opacity: 0.5;
+}
+
+aside form input, aside form textarea {
+    width: 90%;
+}
+
+aside form button {
+    width: 100%;
+    transition: transform 500ms ease;
+}
+
+aside form button:hover {
+    transform: scale(1.2);
+}
+
+img {
+    width: 100%;
+}
